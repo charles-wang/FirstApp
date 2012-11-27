@@ -12,7 +12,12 @@
 
 int main(int argc, char *argv[])
 {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
+    //@autoreleasepool {
+      //  return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+    //}
+    AppDelegate *ad = [[AppDelegate alloc] init];
+    NSString *string = [ad toString];
+    
+    
+    printf("%s",[string cStringUsingEncoding:1]);
 }

@@ -22,6 +22,7 @@
 		443C811215FC225C00D6497C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 443C80ED15FC225B00D6497C /* Foundation.framework */; };
 		443C811A15FC225C00D6497C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 443C811815FC225C00D6497C /* InfoPlist.strings */; };
 		443C811D15FC225C00D6497C /* FirstAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 443C811C15FC225C00D6497C /* FirstAppTests.m */; };
+		44C4205116311A8D008F2384 /* Test.c in Sources */ = {isa = PBXBuildFile; fileRef = 44C4205016311A8D008F2384 /* Test.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		443C811915FC225C00D6497C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		443C811B15FC225C00D6497C /* FirstAppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstAppTests.h; sourceTree = "<group>"; };
 		443C811C15FC225C00D6497C /* FirstAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstAppTests.m; sourceTree = "<group>"; };
+		44C4205016311A8D008F2384 /* Test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Test.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				443C810615FC225B00D6497C /* DetailViewController.h */,
 				443C810715FC225B00D6497C /* DetailViewController.m */,
 				443C80F215FC225B00D6497C /* Supporting Files */,
+				44C4205016311A8D008F2384 /* Test.c */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 				443C80FC15FC225B00D6497C /* AppDelegate.m in Sources */,
 				443C810515FC225B00D6497C /* MasterViewController.m in Sources */,
 				443C810815FC225B00D6497C /* DetailViewController.m in Sources */,
+				44C4205116311A8D008F2384 /* Test.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +458,7 @@
 				443C812215FC225C00D6497C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		443C812315FC225C00D6497C /* Build configuration list for PBXNativeTarget "FirstAppTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +467,7 @@
 				443C812515FC225C00D6497C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
